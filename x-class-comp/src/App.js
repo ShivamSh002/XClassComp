@@ -25,7 +25,7 @@ class App extends React.Component {
       <div>
         <h1> Counter App </h1> <p> Count: {this.state.count} </p>{" "}
         <button onClick={this.increment}> Increment </button>{" "}
-        <button onClick={this.decrement}> DDecrement </button>{" "}
+        <button onClick={this.decrement}> Decrement </button>{" "}
       </div>
     );
   }
